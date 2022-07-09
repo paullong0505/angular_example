@@ -1,11 +1,9 @@
-import "./App.css";
-
 import { Fragment } from "react";
-import ScrollButton from "./components/ScrollButton";
+import BackToTopButton from "./components/backtop";
 function App() {
   return (
     <Fragment>
-      <ScrollButton />
+      <BackToTopButton />
     </Fragment>
   );
 }
